@@ -1,22 +1,11 @@
 Package: hsiaotest
-Title: Hsiao Tests for Panel Homogeneity
+Type: Package
+Title: Hsiao's Panel Homogeneity Test
 Version: 0.1.0
-Authors@R: 
-    person("Boussiala", "Mohamed Nachid", email = "boussiala.nachid@univ-alger3.dz", role = c("aut", "cre"))
-Description: Provides standard and robust implementations of Hsiao's tests 
-    for homogeneity of intercepts and slopes in panel data. Includes F-tests 
-    and heteroskedasticity-consistent versions using sandwich estimators.
-License: MIT + file LICENSE
+Author: Boussiala Mohamed Nachid
+Maintainer: Boussiala Mohamed Nachid <boussiala.nachid@univ-alger3.dz>
+Description: Implements Hsiao's (1986) panel data homogeneity tests for intercepts and slopes under potential heteroskedasticity.
+License: GPL-3
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
-Imports: 
-    stats,
-    car,
-    sandwich,
-    broom,
-    dplyr,
-    ggplot2,
-    stringr,
-    openxlsx,
-    rempsyc
+LazyData: true
+RoxygenNote: 7.3.1
