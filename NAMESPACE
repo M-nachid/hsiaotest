@@ -2,3 +2,6 @@
 
 export(hsiao_test)
 export(hsiao_test_robust)
+importFrom(stats,anova)
+importFrom(stats,as.formula)
+importFrom(stats,lm)
