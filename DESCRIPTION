@@ -8,4 +8,4 @@ Description: Implements Hsiao's (1986) panel data homogeneity tests for intercep
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
